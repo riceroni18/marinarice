@@ -4,9 +4,9 @@
 I am a Genetic Counseling Assistant at GeneDx with a background in Biology and a passion for clinical genomics. I am currently upskilling in bioinformatics to bridge the gap between high-throughput NGS data and patient-first clinical reporting.
 
 - 🧬 **Focus:** Variant Curation (ACMG/AMP), NGS Pipeline Triage, and Data Integrity.
-- 💻 **Tech Stack:** Python adn SQL
+- 💻 **Tech Stack:** Python and SQL
 - 🛠️ **Tools:** IGV, UCSC Genome Browser, LIMS, ClinVar.
 - 📚 **Learning:** Harvard CS50 Python & ClinGen Variant Pathogenicity.
 
 ---
-### Featured Projects
+### Bioinformatics-Learning-Journey: Python Scripts for Genomic Data
