@@ -10,3 +10,5 @@ I am a Genetic Counseling Assistant at GeneDx with a background in Biology and a
 
 ---
 ### Bioinformatics-Learning-Journey: Python Scripts for Genomic Data
+[DNA Sequence Parser](bioinformatics)**: Python utility for calculating GC content in FASTA files—developed to demonstrate NGS quality control logic.
+
