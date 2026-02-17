@@ -9,8 +9,6 @@ I am a Genetic Counseling Assistant at GeneDx with a background in Biology and a
 - 📚 **Learning:** Harvard CS50 Python & ClinGen Variant Pathogenicity.
 
 ---
-# Clinical Bioinformatics & Data Portfolio
-
 This repository contains my work at the intersection of biology and data science.
 
 ### 📂 [Bioinformatics Projects](bioinformatics_projects)
