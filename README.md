@@ -15,6 +15,7 @@ This repository contains my work at the intersection of biology and data science
 
 ### 📂 [Bioinformatics Projects](bioinformatics_projects)
 Focused on NGS data analysis and clinical utility.
+
 **[DNA Sequence Parser](bioinformatics_projects/dna_parser.py)**: Python utility for calculating GC content in FASTA files—developed to demonstrate NGS quality control logic.
 
 ### 📂 [CS50 Foundations](python-programming-foundations)
