@@ -9,7 +9,16 @@ I am a Genetic Counseling Assistant at GeneDx with a background in Biology and a
 - 📚 **Learning:** Harvard CS50 Python & ClinGen Variant Pathogenicity.
 
 ---
-### Bioinformatics-Learning-Journey: Python Scripts for Genomic Data
-[DNA Sequence Parser](bioinformatics_projects/dna_parser.py): Python utility for calculating GC content in FASTA files—developed to demonstrate NGS quality control logic.
+# Clinical Bioinformatics & Data Portfolio
 
-[Python Data Projects](python-programming-foundations): Scripts developed during Harvard CS50, focusing on file automation and structured data management.
+This repository contains my work at the intersection of biology and data science.
+
+### 📂 [Bioinformatics Projects](bioinformatics_projects)
+Focused on NGS data analysis and clinical utility.
+**DNA Sequence Parser:** (bioinformatics_projects/dna_parser.py) A Python tool for FASTA file processing and GC content analysis.
+
+### 📂 [CS50 Foundations](python-programming-foundations)
+Core programming logic developed through Harvard's CS50 Python program.
+* Includes scripts for data validation, file automation, and structured error handling.
+
+
