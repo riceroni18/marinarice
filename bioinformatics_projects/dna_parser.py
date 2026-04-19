@@ -1,39 +1,30 @@
-def calculate_gc_content(sequence):
-    """Calculates the percentage of G and C bases in a DNA sequence."""
-    sequence = sequence.upper()
-    g_count = sequence.count('G')
-    c_count = sequence.count('C')
+import matplotlib.pyplot as plt
+from Bio import SeqIO
+from Bio.SeqUtils import gc_fraction
 
-    if len(sequence) == 0:
-        return 0
+def analyze_and_visualize_gc(filename):
+    gc_values = []
+    labels = []
 
-    gc_content = (g_count + c_count) / len(sequence) * 100
-    return round(gc_content, 2)
+    # Using Biopython for  parsing
+    for record in SeqIO.parse(filename, "fasta"):
+        # gc_fraction returns a value between 0 and 1
+        gc = round(gc_fraction(record.seq) * 100, 2)
+        gc_values.append(gc)
+        labels.append(record.id)
+        print(f"Sequence: {record.id} | GC: {gc}%")
 
-def parse_fasta(filename):
-    """Reads a FASTA file and prints the GC content for each sequence found."""
-    print(f"--- Analyzing File: {filename} ---")
-
-    with open(filename, 'r') as file:
-        label = ""
-        sequence = ""
-
-        for line in file:
-            line = line.strip()
-            if line.startswith(">"):
-                # If we hit a new label, process the previous sequence first
-                if label:
-                    gc = calculate_gc_content(sequence)
-                    print(f"Sequence: {label} | Length: {len(sequence)} bp | GC Content: {gc}%")
-
-                label = line[1:] # Remove the '>'
-                sequence = ""   # Reset for the new sequence
-            else:
-                sequence += line
-
-        # Process the very last sequence in the file
-        if label:
-            gc = calculate_gc_content(sequence)
-            print(f"Sequence: {label} | Length: {len(sequence)} bp | GC Content: {gc}%")
-
-parse_fasta("sample.fasta.py")
+    # Creating the Visualization
+    plt.figure(figsize=(10, 6))
+    plt.bar(labels, gc_values, color='skyblue', edgecolor='navy')
+    plt.axhline(y=sum(gc_values)/len(gc_values), color='red', linestyle='--', label='Mean GC')
+    
+    plt.title("GC Content Distribution Across Sequences", fontsize=14)
+    plt.xlabel("Sequence Identifier", fontsize=12)
+    plt.ylabel("GC Content (%)", fontsize=12)
+    plt.xticks(rotation=45)
+    plt.legend()
+    plt.tight_layout()
+    
+    #geenrate graph
+    plt.savefig("gc_distribution_graph.png")
