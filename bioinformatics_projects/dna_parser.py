@@ -2,6 +2,8 @@ import matplotlib.pyplot as plt
 from Bio import SeqIO
 from Bio.SeqUtils import gc_fraction
 
+print("Script is starting...")
+
 def analyze_and_visualize_gc(filename):
     gc_values = []
     labels = []
@@ -26,5 +28,10 @@ def analyze_and_visualize_gc(filename):
     plt.legend()
     plt.tight_layout()
     
-    #geenrate graph
+    #generate graph
     plt.savefig("gc_distribution_graph.png")
+    print("Graph saved as gc_distribution_graph.png") # Added a confirmation print
+
+
+# Make sure to replace "sequences.fasta" with your actual filename!
+analyze_and_visualize_gc("sequences.fasta")
