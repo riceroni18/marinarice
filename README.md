@@ -10,10 +10,6 @@ I am currently building a suite of tools focused on clinical genomics and data i
  - **[DNA Sequence Parser](bioinformatics_projects/dna_parser.py)**: A Python-based utility for processing genomic FASTA files. It automates sequence metric calculations, such as **GC content**, to assist in assessing genomic regions.quality control logic.
  - **[HPO Data Mapper](bioinformatics_projects/hpo_data_mapper)**: A tool designed to map unstructured clinical notes to standardized **Human Phenotype Ontology (HPO)** terms, streamlining the phenotyping process for clinical diagnostics.
 
-### 📂 [CS50 Foundations](python-programming-foundations)
-Core programming logic developed through Harvard's CS50 Python program.
-* Includes scripts for data validation, file automation, and structured error handling.
-
 ---
 
 ### 💻 Technical Skillset
