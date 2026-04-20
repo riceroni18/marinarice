@@ -1,4 +1,4 @@
- Genomic Annotation Pipeline (GALES)
+ # Genomic Annotation Pipeline (GALES)
 
 This project demonstrates the transition from manual web-based biological analysis to automated, command-line driven pipelines. It utilizes the **GALES (Genomic Analysis and Labeled Extraction System)** pipeline, an open-source tool used extensively in the Human Microbiome Project.
 
