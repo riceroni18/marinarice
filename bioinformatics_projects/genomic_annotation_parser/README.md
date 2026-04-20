@@ -1,6 +1,7 @@
 Gales Genomic Annotation Parser
 
 This utility was developed as part of the UCSD Bioinformatics Fundamentals curriculum to automate the extraction and annotation of genomic variants from Gales platform data exports. It streamlines the transition from raw sequencing outputs to annotated datasets ready for clinical interpretation.
+
 🧬 Project Overview - In clinical workflows, raw data often comes in platform-specific formats that require cleaning and standardization before they can be used in downstream analysis. 
 This project focuses on:
 
