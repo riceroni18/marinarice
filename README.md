@@ -15,7 +15,7 @@ This repository contains my work at the intersection of biology and data science
 Focused on NGS data analysis and clinical utility.
 
  - **[DNA Sequence Parser](bioinformatics_projects/dna_parser.py)**: Python utility for calculating GC content in FASTA files—developed to demonstrate NGS quality control logic.
- - **[HPO Phenotype Mapper](bioinformatics_projects/lacphl-outbreak-surveillance)**: Reads .json file and compares HPO terms found within clinic notes.
+ - **[HPO Phenotype Mapper](bioinformatics_projects/hpo_data_mapper)**: Reads .json file and compares HPO terms found within clinic notes.
 
 ### 📂 [CS50 Foundations](python-programming-foundations)
 Core programming logic developed through Harvard's CS50 Python program.
