@@ -7,9 +7,6 @@ I am a **Genetic Counseling Assistant** at GeneDx with a background in Biology. 
 ### 🛠️ Technical Portfolio
 I am currently building a suite of tools focused on clinical genomics and data integrity:
 
-### 📂 [Bioinformatics Projects](bioinformatics_projects)
-Focused on NGS data analysis and clinical utility.
-
  - **[DNA Sequence Parser](bioinformatics_projects/dna_parser.py)**: A Python-based utility for processing genomic FASTA files. It automates sequence metric calculations, such as **GC content**, to assist in assessing genomic regions.quality control logic.
  - **[HPO Data Mapper](bioinformatics_projects/hpo_data_mapper)**: A tool designed to map unstructured clinical notes to standardized **Human Phenotype Ontology (HPO)** terms, streamlining the phenotyping process for clinical diagnostics.
 
