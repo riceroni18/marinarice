@@ -16,6 +16,6 @@ This tool automates the extraction and mapping of clinical phenotypes from unstr
 
     Language: Python 3.x
 
-    Key Libraries: json (rovides tools to encode and decode data in JavaScript Object Notation)
+    Key Libraries: json (provides tools to encode and decode data in JavaScript Object Notation)
 
     Data Sources: Utilizes the Human Phenotype Ontology database.
