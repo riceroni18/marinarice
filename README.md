@@ -8,7 +8,7 @@ I am a **Genetic Counseling Assistant at GeneDx** bridging the gap between clini
 ### 🛠️ Technical Portfolio
 * **[DNA Sequence Parser](./bioinformatics_projects/dna_sequence_parser):** Python utility for processing FASTA files; automates GC content calculations and sequence metric QC.
 * **[HPO Data Mapper](./bioinformatics_projects/hpo_data_mapper):** NLP-based tool mapping unstructured clinical notes to **Human Phenotype Ontology (HPO)** terms for standardized diagnostics.
-* **[Genomic Annotation_Pipeline](./bioinformatics_projects/genomic_annotation_pipeline):** A command-line driven workflow for functional genome annotation. Focuses on data interoperability, GFF3 manipulation using Biocode, and executing production-level pipelines.
+* **[Genomic Annotation Pipeline](./bioinformatics_projects/genomic_annotation_pipeline):** A command-line driven workflow for functional genome annotation. Focuses on data interoperability, GFF3 manipulation using Biocode, and executing production-level pipelines.
 
 ---
 
