@@ -15,7 +15,7 @@ This repository contains my work at the intersection of biology and data science
 Focused on NGS data analysis and clinical utility.
 
  - **[DNA Sequence Parser](bioinformatics_projects/dna_parser.py)**: Python utility for calculating GC content in FASTA files—developed to demonstrate NGS quality control logic.
- - **[HPO Data Mapper](bioinformatics_projects/lacphl-outbreak-surveillance)**: Genomic surveillance tool using LACPHL data to detect Citrobacter freundii clusters via ANI and phylogenetics—developed to identify localized healthcare transmission.
+ - **[HPO Phenotpe Mapper](bioinformatics_projects/lacphl-outbreak-surveillance)**: Reads .json file and compares HPO terms found within clinic notes.
 
 ### 📂 [CS50 Foundations](python-programming-foundations)
 Core programming logic developed through Harvard's CS50 Python program.
