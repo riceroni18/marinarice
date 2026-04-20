@@ -1,34 +1,35 @@
 # Hi, I'm Marina 👋
 ### Genetic Counseling Assistant | Aspiring Bioinformatics Engineer
 
-I am a **Genetic Counseling Assistant** at GeneDx with a background in Biology. I am currently bridging the gap between clinical operations and computational biology by developing tools that automate genomic data parsing and clinical phenotyping.
+I am a **Genetic Counseling Assistant at GeneDx** bridging the gap between clinical operations and computational biology. I develop tools to automate genomic data parsing and clinical phenotyping to support high-throughput NGS workflows.
 
 ---
-### 🛠️ Technical Portfolio
-I am currently building a suite of tools focused on clinical genomics and data integrity:
 
- - **[DNA Sequence Parser](bioinformatics_projects/dna_parser.py)**: A Python-based utility for processing genomic FASTA files. It automates sequence metric calculations, such as **GC content**, to assist in assessing genomic regions.quality control logic.
- - **[HPO Data Mapper](bioinformatics_projects/hpo_data_mapper)**: A tool designed to map unstructured clinical notes to standardized **Human Phenotype Ontology (HPO)** terms, streamlining the phenotyping process for clinical diagnostics.
+### 🛠️ Technical Portfolio
+* **[DNA Sequence Parser](./bioinformatics_projects/dna_sequence_parser):** Python utility for processing FASTA files; automates GC content calculations and sequence metric QC.
+* **[HPO Data Mapper](./bioinformatics_projects/hpo_data_mapper):** NLP-based tool mapping unstructured clinical notes to **Human Phenotype Ontology (HPO)** terms for standardized diagnostics.
+* **[Genomic Annotation_Parser](./bioinformatics_projects/genomic_annotation_parser):** A Python-based tool developed to process raw exports from the Gales platform, automating variant metadata extraction and functional annotation for relational database ingestion.
 
 ---
 
 ### 💻 Technical Skillset
-
 | Category | Tools & Technologies |
 | :--- | :--- |
-| **Programming** | Python (Biopython, Pandas), Bash/Linux Shell |
-| **Data Standards** | HPO (Human Phenotype Ontology), FASTA/Genomic Data Formats |
-| **Workflow** | Git/GitHub, Docker, WSL (Windows Subsystem for Linux) |
+| **Programming** | Python (Biopython, Pandas), Bash/Linux, SQL (MySQL/MariaDB) |
+| **Genomics** | NGS/TGS Platforms, BLAST, ClinVar, HPO, Entrez |
+| **Workflow** | Git/GitHub, Docker, Nextflow, WSL |
 | **Clinical Ops** | High-volume diagnostic laboratory workflows, LIMS |
 
 ---
-## 📚 Current Growth & Education
-* **M.S. in Bioinformatics:** Incoming student at University of Maryland Global Campus (May 2026).
-* **Pipeline Orchestration:** Actively learning **Nextflow** to transition my scripts into automated, scalable pipelines.
-* **Cloud Computing:** Exploring **AWS infrastructure** to support large-scale genomic data processing.
+
+### 🎓 Education & Continuous Learning
+* **M.S. Bioinformatics** | University of Maryland Global Campus (Incoming May 2026)
+* **Specialized Certificate in Bioinformatics** | UC San Diego (Completed 2026)
+    * *Core Competencies:* Relational database modeling, NIX command line, and NGS/Third-Gen sequencing mechanisms (Cancer Genomics, RNA-Seq, Epigenetics).
+* **Current Upskilling:** Master’s-level pipeline orchestration with **Nextflow** and genomic data architecture on **AWS**.
 
 ---
 
 ### 📫 Connect with Me
-* **LinkedIn:** [https://www.linkedin.com/in/marina-rice-3071a1a9/?skipRedirect=true]
-* **GitHub:** You're already here! Check out my `bioinformatics_projects` folder above.
+* **LinkedIn:** [Your Profile Name](https://www.linkedin.com/in/marina-rice-3071a1a9/)
+* **GitHub:** Check out my `bioinformatics_projects` folder above for source code.
