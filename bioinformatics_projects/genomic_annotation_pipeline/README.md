@@ -11,7 +11,7 @@ This project demonstrates the transition from manual web-based biological analys
 ## 🧬 Pipeline Overview
 The workflow chains multiple tools to perform functional genomic annotation. This project explores the balance between "black box" pipeline execution and the technical necessity of understanding intermediate data transformations.
 
-* ### 🧬 Gene Prediction with Prodigal
+### 🧬 Gene Prediction with Prodigal
 I utilized **Prodigal** (Prokaryotic Dynamic Programming Genefinding Algorithm) to identify protein-coding genes within the assembly. 
 
 **Command executed:**
